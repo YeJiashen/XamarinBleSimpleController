@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <GridView
+        android:verticalSpacing="5dp"
+        android:layout_marginTop="120dp"
+        android:id="@+id/device_list"
+        android:background="#4000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:text="刷新蓝牙设备列表"
+        android:id="@+id/ble_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <Button
+        android:text="开始通过BLE连接此设备"
+        android:layout_marginTop="60dp"
+        android:id="@+id/ble_connect"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <Button
+        android:visibility="gone"
+        android:layout_marginTop="120dp"
+        android:text="开始获取已连接设备的services"
+        android:id="@+id/ble_getservices"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+</RelativeLayout>

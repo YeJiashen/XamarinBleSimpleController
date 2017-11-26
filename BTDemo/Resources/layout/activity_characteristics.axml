@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <GridView
+        android:verticalSpacing="5dp"
+        android:layout_marginTop="180dp"
+        android:id="@+id/characteristics_list"
+        android:background="#4000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:text="返回"
+        android:id="@+id/characteristics_back"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <Button
+        android:text="刷新特征列表"
+        android:layout_marginTop="60dp"
+        android:id="@+id/characteristics_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <Button
+        android:text="进入选中的特征查看值"
+        android:layout_marginTop="120dp"
+        android:id="@+id/characteristics_stepinto"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">BTDemo</string>
+  <string name="connect_ble">可以开始连接BLE设备</string>
+</resources>

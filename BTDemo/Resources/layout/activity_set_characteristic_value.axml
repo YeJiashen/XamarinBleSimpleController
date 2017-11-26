@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#FFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <Button
+      android:text="返回"
+      android:id="@+id/settings_back"
+      android:layout_width="match_parent"
+      android:layout_height="60dp" />
+  <TextView
+      android:textSize="18sp"
+      android:paddingLeft="20dp"
+      android:background="#AA000000"
+      android:layout_marginTop="10dp"
+      android:paddingTop="10dp"
+      android:paddingBottom="10dp"
+      android:id="@+id/settings_value_hex"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+  <TextView
+      android:textSize="18sp"
+      android:paddingLeft="20dp"
+      android:paddingTop="10dp"
+      android:paddingBottom="10dp"
+      android:background="#AA000000"
+      android:layout_marginTop="10dp"
+      android:id="@+id/settings_value_str"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+  <EditText
+    android:textColor="#000"
+    android:textSize="18sp"
+    android:paddingLeft="20dp"
+      android:layout_marginTop="10dp"
+      android:id="@+id/settings_value_input"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+  <Button
+      android:layout_marginTop="10dp"
+      android:text="请将值用:分隔开  将这个值设置给蓝牙设备"
+      android:id="@+id/settings_set_value"
+      android:layout_width="match_parent"
+      android:layout_height="60dp" />
+  <Button
+      android:layout_marginTop="10dp"
+      android:text="注册此特征值的通知"
+      android:id="@+id/settings_regist_char_notify"
+      android:layout_width="match_parent"
+      android:layout_height="60dp" />
+  <Button
+      android:layout_marginTop="10dp"
+      android:text="注销此特征值的通知"
+      android:id="@+id/settings_unregist_char_notify"
+      android:layout_width="match_parent"
+      android:layout_height="60dp" />
+</LinearLayout>

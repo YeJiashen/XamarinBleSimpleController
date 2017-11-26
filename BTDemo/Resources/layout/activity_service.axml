@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <GridView
+        android:verticalSpacing="5dp"
+        android:layout_marginTop="180dp"
+        android:id="@+id/service_list"
+        android:background="#4000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:text="返回"
+        android:id="@+id/service_back"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <Button
+        android:text="刷新服务列表"
+        android:layout_marginTop="60dp"
+        android:id="@+id/service_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <Button
+        android:text="进入选中的服务查看特征"
+        android:layout_marginTop="120dp"
+        android:id="@+id/service_stepinto"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+</RelativeLayout>
